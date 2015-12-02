@@ -1,6 +1,6 @@
 {
   "name": "accoutrement-init",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Browser normalization and baseline styles.",
   "homepage": "https://github.com/oddbird/accoutrement-init",
   "repository": {
@@ -29,7 +29,6 @@
     "exports": "eyeglass-exports.js"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha",
     "release": "gulp sasslint && gulp sassdoc"
   },
   "bugs": {

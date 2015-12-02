@@ -5,9 +5,9 @@
 // - https://github.com/necolas/normalize.css
 
 
-@include 'config';
-@include 'root';
-@include 'a11y';
-@include 'forms';
-@include 'media';
-@include 'typography';
+@import 'config';
+@import 'root';
+@import 'a11y';
+@import 'forms';
+@import 'media';
+@import 'typography';

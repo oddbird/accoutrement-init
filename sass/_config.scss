@@ -29,7 +29,7 @@ $root-font-size: percentage($base-size / $_browser-default-font-size) !default;
 
 /// Set the root element line height
 /// @group config
-$root-line-height: size('rhythm') !default;
+$root-line-height: size('rhythm', 'em') !default;
 
 
 

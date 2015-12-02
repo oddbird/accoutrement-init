@@ -1,0 +1,93 @@
+// Forms Init
+// ==========
+
+
+
+// Normalization
+// -------------
+
+
+button {
+  appearance: button; // iOS 8+
+  overflow: visible; // Internet Explorer 11-
+}
+
+input {
+  border-radius: 0; // iOS 8+
+  line-height: normal; // Firefox 4+
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  appearance: button; // iOS 8+
+  cursor: pointer;
+}
+
+// Address box sizing set to `content-box` in IE 8/9/10.
+// Remove excess padding in IE 8/9/10.
+[type='checkbox'],
+[type='radio'] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type='number'] {
+  width: auto; // Firefox 36+
+}
+
+[type='search'] {
+  appearance: textfield; // Chrome 45+, Safari 9+
+}
+
+
+
+// Opinions
+// --------
+
+
+// Specify the background color of form elements
+// Specify the inherited color and font of form elements
+button,
+input,
+select,
+textarea {
+  background-color: $form-element-background-color;
+  color: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+
+// specify the minimum height of form elements
+button,
+[type='button'],
+[type='date'],
+[type='datetime'],
+[type='datetime-local'],
+[type='email'],
+[type='month'],
+[type='number'],
+[type='password'],
+[type='reset'],
+[type='search'],
+[type='submit'],
+[type='tel'],
+[type='text'],
+[type='time'],
+[type='url'],
+[type='week'],
+select,
+textarea {
+  min-height: $form-element-min-height;
+}
+
+
+// Remove default vertical scrollbar in IE 8/9/10/11.
+// Specify the resizability of textareas
+textarea {
+  overflow: auto;
+  resize: vertical;
+}

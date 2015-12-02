@@ -1,0 +1,87 @@
+// Root Init
+// =========
+
+
+
+// Normalization
+// -------------
+
+
+// Prevent iOS and IE text size adjust after device orientation change
+html {
+  -ms-overflow-style: -ms-autohiding-scrollbar; // Edge 12+, Internet Explorer 11-
+  text-size-adjust: 100%;
+}
+
+
+// Android 4.3-, Internet Explorer 11-, Windows Phone 8.1+
+main {
+  display: block;
+}
+
+
+// Edge 12+, Firefox 40+, Internet Explorer 11-, Windows Phone 8.1+
+details {
+  display: block;
+}
+
+
+// Internet Explorer 11-
+pre {
+  overflow: auto;
+}
+
+
+// Internet Explorer 11-, Windows Phone 8.1+
+progress {
+  display: inline-block;
+}
+
+
+// Firefox 40+, Internet Explorer 11-, Windows Phone 8.1+
+summary {
+  display: block;
+}
+
+
+// Android 4.3-, Internet Explorer 11-, iOS 7-, Safari 7-, Windows Phone 8.1+
+template {
+  display: none;
+}
+
+
+
+// Opinions
+// --------
+
+
+// specify the border style, width, and box-sizing of all elements
+*,
+::before,
+::after {
+  border-style: solid;
+  border-width: 0;
+  box-sizing: border-box;
+}
+
+
+// specify the core styles of all elements
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+// specify the root styles of the document
+:root {
+  background-color: $root-background-color;
+  color: $root-color;
+  font: #{$root-font-size}/#{$root-line-height} $root-font-family;
+}
+
+
+// specify the border styling of tables
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

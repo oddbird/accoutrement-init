@@ -1,0 +1,71 @@
+// Configuration
+// =============
+
+
+
+// Root
+// ----
+
+
+/// Set the root element background color
+/// @group config
+$root-background-color: color('background') !default;
+
+
+/// Set the root element text color
+/// @group config
+$root-color: color('text') !default;
+
+
+/// Set the root element font stack
+/// @group config
+$root-font-family: if(map-get($fonts, 'body'), font-family('body'), 'sans-serif') !default;
+
+
+/// Set the root element font size
+/// @group config
+$root-font-size: percentage($base-size / $_browser-default-font-size) !default;
+
+
+/// Set the root element line height
+/// @group config
+$root-line-height: size('rhythm') !default;
+
+
+
+// Forms
+// -----
+
+
+/// Set the form element background color
+/// @group config
+$form-element-background-color: color('background') !default;
+
+/// Set the form element minimum height
+/// @group config
+$form-element-min-height: size('rhythm') !default;
+
+
+
+// Typography
+// ----------
+
+
+/// Set a monospace font-family
+/// @group config
+$monospace-font-family: if(map-get($fonts, 'code'), font-family('code'), 'monospace') !default;
+
+
+/// Set a background color for selected text
+/// @group config
+$selection-background-color: color('action') !default;
+
+
+/// Set a text color for selected text
+/// @group config
+$selection-color: contrast('action') !default;
+
+
+/// Set a font-size for `small` elements
+/// @group config
+$small-font-size: size('small') !default;

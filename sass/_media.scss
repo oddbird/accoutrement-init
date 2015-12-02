@@ -1,0 +1,38 @@
+// Media Init
+// ==========
+
+
+
+// Normalization
+// -------------
+
+
+// Remove border when inside `a` element in IE 8/9/10.
+img {
+  border: 0;
+}
+
+
+// Internet Explorer 11-
+svg {
+  &:not(:root) {
+    overflow: hidden;
+  }
+}
+
+
+
+// Opinions
+// --------
+
+
+// specify the alignment of media elements
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  max-width: 100%;
+  vertical-align: middle;
+}

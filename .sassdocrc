@@ -1,0 +1,9 @@
+theme: 'herman'
+
+display:
+  access:
+    - public
+
+groups:
+  api: usage
+  config: configuration

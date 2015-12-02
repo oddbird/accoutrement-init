@@ -2,22 +2,12 @@
 // ==================
 
 
-
-// Normalization
-// -------------
-
-
 // Chrome 44-, iOS 8+, Safari 9+
 audio {
   :not([controls]) {
     display: none;
   }
 }
-
-
-
-// Opinions
-// --------
 
 
 // specify the progress cursor of updating elements
@@ -39,17 +29,7 @@ audio {
 }
 
 
-// specify the style of visually hidden yet accessible elements
+// Internet Explorer 10-
 [hidden] {
-  display: none; // Internet Explorer 10-
-
-  [aria-hidden='false'] {
-    clip: rect(0 0 0 0);
-    display: inherit;
-    position: absolute;
-
-    &:focus {
-      clip: auto;
-    }
-  }
+  display: none;
 }

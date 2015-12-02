@@ -2,9 +2,17 @@
 // ===============
 
 
+// Remove the gray background color from active links in IE 10.
+// Improve readability of focused elements
+// when they are also in an active/hover state.
+a {
+  background-color: transparent;
 
-// Normalization
-// -------------
+  &:active,
+  &:hover {
+    outline: 0;
+  }
+}
 
 
 // Address styling not present in IE 8/9/10/11, Safari, and Chrome.
@@ -22,61 +30,19 @@ strong {
 }
 
 
-// Address styling not present in Safari and Chrome.
-dfn {
-  font-style: italic;
-}
-
-
-// All browsers
-small {
-  font-size: $small-font-size;
-}
-
-
-// Prevent `sub` and `sup` affecting `line-height` in all browsers.
-sub,
-sup {
-  font-size: $small-font-size;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sup {
-  top: -0.5em;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
-
-
-// Opinions
-// --------
-
-
-// Remove the gray background color from active links in IE 10.
-// Improve readability of focused elements
-// when they are also in an active/hover state.
-a {
-  background-color: transparent;
-
-  &:active,
-  &:hover {
-    outline: 0;
-  }
-}
-
-
 // specify the font family of code elements
 code,
 kbd,
 pre,
 samp {
-  font-family: $monospace-font-family;
+  font-family: monospace;
   font-size: inherit;
+}
+
+
+// Address styling not present in Safari and Chrome.
+dfn {
+  font-style: italic;
 }
 
 
@@ -89,15 +55,25 @@ nav {
 }
 
 
-// specify the background color, font color and drop shadow of text selections
-::-moz-selection {
-  background-color: $selection-background-color; // required
-  color: $selection-color;
-  text-shadow: none;
+// All browsers
+small {
+  font-size: 0.75em;
 }
 
-::selection {
-  background-color: $selection-background-color; // required
-  color: $selection-color;
-  text-shadow: none;
+
+// Prevent `sub` and `sup` affecting `line-height` in all browsers.
+sub,
+sup {
+  font-size: 0.75em;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
 }

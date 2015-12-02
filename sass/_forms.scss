@@ -2,11 +2,6 @@
 // ==========
 
 
-
-// Normalization
-// -------------
-
-
 button {
   appearance: button; // iOS 8+
   overflow: visible; // Internet Explorer 11-
@@ -42,46 +37,17 @@ button,
 }
 
 
-
-// Opinions
-// --------
-
-
 // Specify the background color of form elements
 // Specify the inherited color and font of form elements
 button,
 input,
 select,
 textarea {
-  background-color: $form-element-background-color;
+  background-color: transparent;
   color: inherit;
   font-family: inherit;
   font-style: inherit;
   font-weight: inherit;
-}
-
-
-// specify the minimum height of form elements
-button,
-[type='button'],
-[type='date'],
-[type='datetime'],
-[type='datetime-local'],
-[type='email'],
-[type='month'],
-[type='number'],
-[type='password'],
-[type='reset'],
-[type='search'],
-[type='submit'],
-[type='tel'],
-[type='text'],
-[type='time'],
-[type='url'],
-[type='week'],
-select,
-textarea {
-  min-height: $form-element-min-height;
 }
 
 

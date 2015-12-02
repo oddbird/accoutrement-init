@@ -2,11 +2,6 @@
 // =========
 
 
-
-// Normalization
-// -------------
-
-
 // Prevent iOS and IE text size adjust after device orientation change
 html {
   -ms-overflow-style: -ms-autohiding-scrollbar; // Edge 12+, Internet Explorer 11-
@@ -50,11 +45,6 @@ template {
 }
 
 
-
-// Opinions
-// --------
-
-
 // specify the border style, width, and box-sizing of all elements
 *,
 ::before,
@@ -71,14 +61,6 @@ template {
   line-height: inherit;
   margin: 0;
   padding: 0;
-}
-
-
-// specify the root styles of the document
-:root {
-  background-color: $root-background-color;
-  color: $root-color;
-  font: #{$root-font-size}/#{$root-line-height} $root-font-family;
 }
 
 

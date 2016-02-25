@@ -1,9 +1,27 @@
 accoutrement-init
 =================
 
-Browser normalization,
-and baseline styles for accoutrement projects.
+Browser normalization [Accoutrement][accoutrement]
+by [OddBird][oddbird].
+Loosely based on
+[Sanitize][sanitize] and [Normalize][normalize].
 
-## Installation
+[sanitize]: github.com/10up/sanitize.css
+[normalize]: https://github.com/necolas/normalize.css
 
-``npm install accoutrement-init``
+
+Quick Start
+-----------
+
+```bash
+npm install accoutrement-init
+```
+
+Import the library:
+
+```scss
+@import 'path/to/accoutrement-init/sass/init'
+```
+
+**WARNING** This library writes CSS directly to your stylesheets.
+There is no configuration, no mixins, no variables, and no functions.

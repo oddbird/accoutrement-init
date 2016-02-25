@@ -2,43 +2,67 @@
 // ==========
 
 
+/// Internet Explorer 11-
+/// @group forms
 button {
-  appearance: button; // iOS 8+
-  overflow: visible; // Internet Explorer 11-
+  overflow: visible;
 }
 
+
+/// border-radius: iOS 8+ |
+/// line-height: Firefox 4+
+/// @group forms
 input {
-  border-radius: 0; // iOS 8+
-  line-height: normal; // Firefox 4+
+  border-radius: 0;
+  line-height: normal;
 }
 
+
+/// appearance, cursors, and inner-focus
+/// for buttons and button-like inputs
+/// (appearance: iOS 8+)
+/// @group forms
 button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
-  appearance: button; // iOS 8+
+  appearance: button;
   cursor: pointer;
+
+  &::-moz-focus-inner {
+    border: 0 none !important;
+    padding: 0 !important;
+  }
 }
 
-// Address box sizing set to `content-box` in IE 8/9/10.
-// Remove excess padding in IE 8/9/10.
+
+/// Address box sizing set to `content-box` in IE 8/9/10.
+/// Remove excess padding in IE 8/9/10.
+/// @group forms
 [type='checkbox'],
 [type='radio'] {
   box-sizing: border-box;
   padding: 0;
 }
 
+
+/// Firefox 36+
+/// @group forms
 [type='number'] {
-  width: auto; // Firefox 36+
+  width: auto;
 }
 
+
+/// Chrome 45+, Safari 9+
+/// @group forms
 [type='search'] {
-  appearance: textfield; // Chrome 45+, Safari 9+
+  appearance: textfield;
 }
 
 
-// Specify the background color of form elements
-// Specify the inherited color and font of form elements
+/// Specify the background-color,
+/// and the inherited color/font of form elements
+/// @group forms
 button,
 input,
 select,
@@ -51,8 +75,9 @@ textarea {
 }
 
 
-// Remove default vertical scrollbar in IE 8/9/10/11.
-// Specify the resizability of textareas
+/// Remove default vertical scrollbar in IE 8/9/10/11,
+/// and specify the resizability of textareas
+/// @group forms
 textarea {
   overflow: auto;
   resize: vertical;

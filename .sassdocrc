@@ -1,10 +1,2 @@
 theme: 'herman'
 dest: gh-pages/sassdoc
-
-display:
-  access:
-    - public
-
-groups:
-  api: usage
-  config: configuration

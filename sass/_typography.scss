@@ -2,9 +2,10 @@
 // ===============
 
 
-// Remove the gray background color from active links in IE 10.
-// Improve readability of focused elements
-// when they are also in an active/hover state.
+/// Remove the gray background color from active links in IE 10.
+/// Improve readability of focused elements
+/// when they are also in an active/hover state.
+/// @group type
 a {
   background-color: transparent;
 
@@ -15,7 +16,8 @@ a {
 }
 
 
-// Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+/// Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+/// @group type
 abbr {
   &[title] {
     border-bottom: 1px dotted;
@@ -23,14 +25,16 @@ abbr {
 }
 
 
-// Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+/// Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+/// @group type
 b,
 strong {
   font-weight: bold;
 }
 
 
-// specify the font family of code elements
+/// specify the font family of code elements
+/// @group type
 code,
 kbd,
 pre,
@@ -40,13 +44,15 @@ samp {
 }
 
 
-// Address styling not present in Safari and Chrome.
+/// Address styling not present in Safari and Chrome.
+/// @group type
 dfn {
   font-style: italic;
 }
 
 
-// Remove list style of nav lists
+/// Remove list style of nav lists
+/// @group type
 nav {
   ol,
   ul {
@@ -55,13 +61,15 @@ nav {
 }
 
 
-// All browsers
+/// All browsers
+/// @group type
 small {
   font-size: 0.75em;
 }
 
 
-// Prevent `sub` and `sup` affecting `line-height` in all browsers.
+/// Prevent `sub` and `sup` affecting `line-height` in all browsers.
+/// @group type
 sub,
 sup {
   font-size: 0.75em;
@@ -70,10 +78,16 @@ sup {
   vertical-align: baseline;
 }
 
+
+/// Move super-script up
+/// @group type
 sup {
   top: -0.5em;
 }
 
+
+/// Move sub-script down
+/// @group type
 sub {
   bottom: -0.25em;
 }

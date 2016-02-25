@@ -2,13 +2,15 @@
 // ==========
 
 
-// Remove border when inside `a` element in IE 8/9/10.
+/// Remove border when inside `a` element in IE 8/9/10.
+/// @group media
 img {
   border: 0;
 }
 
 
-// Internet Explorer 11-
+/// Internet Explorer 11-
+/// @group media
 svg {
   &:not(:root) {
     overflow: hidden;
@@ -16,7 +18,8 @@ svg {
 }
 
 
-// specify the alignment of media elements
+/// Specify the alignment of media elements
+/// @group media
 audio,
 canvas,
 iframe,

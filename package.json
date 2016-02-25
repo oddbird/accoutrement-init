@@ -12,7 +12,7 @@
     "gulp": "^3.9.0",
     "gulp-sass-lint": "^1.1.0",
     "gulp-util": "^3.0.7",
-    "sassdoc": "^2.1.15",
+    "sassdoc": "^2.1.20",
     "sassdoc-theme-herman": "^0.1.0"
   },
   "author": "Miriam Suzanne <miriam@oddbird.net>",

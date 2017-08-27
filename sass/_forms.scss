@@ -9,8 +9,8 @@ button {
 }
 
 
-/// border-radius: iOS 8+ |
-/// line-height: Firefox 4+
+/// - Border-radius: iOS 8+ |
+/// - Line-height: Firefox 4+
 /// @group forms
 input {
   border-radius: 0;
@@ -18,9 +18,10 @@ input {
 }
 
 
-/// appearance, cursors, and inner-focus
-/// for buttons and button-like inputs
-/// (appearance: iOS 8+)
+/// Appearance, cursors, and inner-focus
+/// for buttons and button-like inputs.
+///
+/// - Appearance: iOS 8+
 /// @group forms
 button,
 [type='button'],
@@ -29,6 +30,7 @@ button,
   appearance: button;
   cursor: pointer;
 
+  // sass-lint:disable no-vendor-prefixes, no-important
   &::-moz-focus-inner {
     border: 0 none !important;
     padding: 0 !important;
@@ -61,7 +63,7 @@ button,
 
 
 /// Specify the background-color,
-/// and the inherited color/font of form elements
+/// and the inherited color/font of form elements.
 /// @group forms
 button,
 input,
@@ -76,7 +78,7 @@ textarea {
 
 
 /// Remove default vertical scrollbar in IE 8/9/10/11,
-/// and specify the resizability of textareas
+/// and specify the resizability of textareas.
 /// @group forms
 textarea {
   overflow: auto;

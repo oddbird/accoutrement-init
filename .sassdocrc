@@ -1,2 +1,11 @@
 theme: 'herman'
-dest: gh-pages/sassdoc
+dest: docs/
+
+display:
+  access:
+    - public
+
+herman:
+  sass:
+    includepaths: ['sass']
+    includes: ['init']

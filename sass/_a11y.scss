@@ -11,14 +11,14 @@ audio {
 }
 
 
-/// Specify the progress cursor of updating elements
+/// Specify the progress cursor of updating elements.
 /// @group a11y
 [aria-busy='true'] {
   cursor: progress;
 }
 
 
-/// Specify the pointer cursor of trigger elements
+/// Specify the pointer cursor of trigger elements.
 /// @group a11y
 [aria-controls] {
   cursor: pointer;
@@ -26,7 +26,7 @@ audio {
 
 
 /// Specify the unstyled cursor of disabled,
-/// not-editable, or otherwise inoperable elements
+/// not-editable, or otherwise inoperable elements.
 /// @group a11y
 [aria-disabled] {
   cursor: default;

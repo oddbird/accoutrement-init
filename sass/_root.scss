@@ -2,23 +2,29 @@
 // =========
 
 
-// Prevent iOS and IE text size adjust after device orientation change
-// (overflow-style: Edge 12+, Internet Explorer 11-)
+/// Prevent iOS and IE text size adjust after device orientation change.
+///
+/// - Overflow-style: Edge 12+, Internet Explorer 11-
 /// @group general
 html {
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+  -ms-overflow-style: -ms-autohiding-scrollbar; // sass-lint:disable-line no-vendor-prefixes
   text-size-adjust: 100%;
 }
 
 
-/// Android 4.3-, Internet Explorer 11-, Windows Phone 8.1+
+/// - Android 4.3-
+/// - Internet Explorer 11-
+/// - Windows Phone 8.1+
 /// @group general
 main {
   display: block;
 }
 
 
-/// Edge 12+, Firefox 40+, Internet Explorer 11-, Windows Phone 8.1+
+/// - Edge 12+
+/// - Firefox 40+
+/// - Internet Explorer 11-
+/// - Windows Phone 8.1+
 /// @group general
 details {
   display: block;
@@ -32,28 +38,35 @@ pre {
 }
 
 
-/// Internet Explorer 11-, Windows Phone 8.1+
+/// - Internet Explorer 11-
+/// - Windows Phone 8.1+
 /// @group general
 progress {
   display: inline-block;
 }
 
 
-/// Firefox 40+, Internet Explorer 11-, Windows Phone 8.1+
+/// - Firefox 40+
+/// - Internet Explorer 11-
+/// - Windows Phone 8.1+
 /// @group general
 summary {
   display: block;
 }
 
 
-/// Android 4.3-, Internet Explorer 11-, iOS 7-, Safari 7-, Windows Phone 8.1+
+/// - Android 4.3-
+/// - Internet Explorer 11-
+/// - iOS 7-
+/// - Safari 7-
+/// - Windows Phone 8.1+
 /// @group general
 template {
   display: none;
 }
 
 
-/// Specify the border style, width, and box-sizing of all elements
+/// Specify the border style, width, and box-sizing of all elements.
 /// @group general
 *,
 ::before,
@@ -64,7 +77,7 @@ template {
 }
 
 
-/// Specify the core styles of all elements
+/// Specify the core styles of all elements.
 /// @group general
 * {
   font-size: inherit;
@@ -74,7 +87,7 @@ template {
 }
 
 
-/// Specify the border styling of tables
+/// Specify the border styling of tables.
 /// @group general
 table {
   border-collapse: collapse;

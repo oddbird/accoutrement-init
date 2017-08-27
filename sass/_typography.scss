@@ -33,7 +33,7 @@ strong {
 }
 
 
-/// specify the font family of code elements
+/// Specify the font family of code elements.
 /// @group type
 code,
 kbd,
@@ -51,7 +51,7 @@ dfn {
 }
 
 
-/// Remove list style of nav lists
+/// Remove list style of nav lists.
 /// @group type
 nav {
   ol,
@@ -61,7 +61,7 @@ nav {
 }
 
 
-/// All browsers
+/// All browsers…
 /// @group type
 small {
   font-size: 0.75em;
@@ -79,14 +79,14 @@ sup {
 }
 
 
-/// Move super-script up
+/// Move super-script up.
 /// @group type
 sup {
   top: -0.5em;
 }
 
 
-/// Move sub-script down
+/// Move sub-script down.
 /// @group type
 sub {
   bottom: -0.25em;

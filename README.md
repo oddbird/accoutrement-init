@@ -6,7 +6,7 @@ by [OddBird][oddbird].
 Loosely based on
 [Sanitize][sanitize] and [Normalize][normalize].
 
-[accoutrement]: http://oddbird.net/accoutrement/
+[accoutrement]: http://oddbird.net/open-source/accoutrement/
 [oddbird]: http://oddbird.net/
 [sanitize]: github.com/10up/sanitize.css
 [normalize]: https://github.com/necolas/normalize.css

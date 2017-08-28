@@ -1,7 +1,7 @@
 accoutrement-init
 =================
 
-Browser normalization [Accoutrement][accoutrement]
+Light weight browser normalization [Accoutrement][accoutrement]
 by [OddBird][oddbird].
 Loosely based on
 [Sanitize][sanitize] and [Normalize][normalize].
@@ -15,14 +15,17 @@ Loosely based on
 Quick Start
 -----------
 
+Install the package with npm or yarn:
+
 ```bash
 npm install accoutrement-init
+yarn add accoutrement-init
 ```
 
 Import the library:
 
 ```scss
-@import 'path/to/accoutrement-init/sass/init'
+@import '<path-to>/accoutrement-init/sass/init'
 ```
 
 **WARNING** This library writes CSS directly to your stylesheets.

@@ -5,6 +5,13 @@ display:
   access:
     - public
 
+groups:
+  general: General
+  a11y: Accessibility
+  forms: Form Elements
+  media: Media
+  type: Typography
+
 herman:
   sass:
     includepaths: ['sass']

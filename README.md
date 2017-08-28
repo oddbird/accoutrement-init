@@ -25,7 +25,7 @@ yarn add accoutrement-init
 Import the library:
 
 ```scss
-@import '<path-to>/accoutrement-init/sass/init'
+@import '<path-to>/accoutrement-init/sass/init';
 ```
 
 **WARNING** This library writes CSS directly to your stylesheets.

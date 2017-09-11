@@ -26,7 +26,8 @@
     "eyeglass-module"
   ],
   "eyeglass": {
-    "exports": "eyeglass-exports.js"
+    "exports": "eyeglass-exports.js",
+    "needs": "*"
   },
   "scripts": {
     "commit": "gulp sasslint && gulp sassdoc"

@@ -26,7 +26,10 @@
     "eyeglass-module"
   ],
   "eyeglass": {
-    "exports": "eyeglass-exports.js"
+    "sassDir": "sass",
+    "exports": false,
+    "name": "accoutrement-color",
+    "needs": "^1.0.0"
   },
   "scripts": {
     "commit": "gulp sasslint && gulp sassdoc"

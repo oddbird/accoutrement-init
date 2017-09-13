@@ -1,6 +1,10 @@
 Accoutrement-Init Changelog
 ===========================
 
+1.1.2 - 09/13/17
+----------------
+
+- DOCS: Fix broken source link.
 
 1.1.1 - 09/11/17
 ----------------

@@ -1,6 +1,12 @@
 Accoutrement-Init Changelog
 ===========================
 
+1.1.4 - 17/12/18
+----------------
+- BUGFIX: Fixed Eyeglass importing mechanism
+- DOCS: updated documentation
+- DOCS: re-generated documentation
+
 1.1.3 - 07/10/18
 ----------------
 - BUGFIX: Correct Eyeglass module name.

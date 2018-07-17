@@ -40,7 +40,7 @@ yarn add accoutrement-init
 Import the library:
 
 ```scss
-@import '<path-to>/accoutrement-init/sass/index';
+@import '<path-to>/accoutrement-init/sass/init';
 ```
 
 If you're using [Eyeglass](https://github.com/sass-eyeglass/eyeglass) you can import it directly:

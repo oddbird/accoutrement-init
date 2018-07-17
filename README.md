@@ -7,7 +7,7 @@ Loosely based on
 [Sanitize][sanitize] and [Normalize][normalize].
 
 [oddbird]: http://oddbird.net/
-[sanitize]: github.com/10up/sanitize.css
+[sanitize]: https://github.com/10up/sanitize.css
 [normalize]: https://github.com/necolas/normalize.css
 
 
@@ -41,6 +41,12 @@ Import the library:
 
 ```scss
 @import '<path-to>/accoutrement-init/sass/init';
+```
+
+If you're using [Eyeglass](https://github.com/sass-eyeglass/eyeglass) you can import it directly:
+
+```scss
+@import 'accoutrement-init`;
 ```
 
 **WARNING** This library writes CSS directly to your stylesheets.
